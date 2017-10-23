@@ -1,0 +1,392 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">kleo_clients</custom-type>
+        <custom-type translate="1">kleo-testimonials</custom-type>
+        <custom-type translate="1">portfolio</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">clients-tag</taxonomy>
+        <taxonomy translate="1">testimonials-tag</taxonomy>
+        <taxonomy translate="1">portfolio-category</taxonomy>
+    </taxonomies>
+	<admin-texts>
+        <key name="kleo_kleo">
+            <key name="maintenance_msg" />
+            <key name="footer_text" />
+            <key name="contact_form_title" />
+            <key name="contact_form_text" />
+            <key name="header_banner"/>
+            <key name="title_info" />
+            <key name="likes_zero_text" />
+            <key name="likes_one_text" />
+            <key name="likes_more_text" />
+            <key name="likes_already" />
+            <key name="like_this_text" />
+            <key name="bp_title_info"/>
+        </key>
+        <key name="kleo_kleo_child">
+            <key name="maintenance_msg" />
+            <key name="footer_text" />
+            <key name="contact_form_title" />
+            <key name="contact_form_text" />
+            <key name="header_banner"/>
+            <key name="title_info" />
+            <key name="likes_zero_text" />
+            <key name="likes_one_text" />
+            <key name="likes_more_text" />
+            <key name="likes_already" />
+            <key name="like_this_text" />
+            <key name="bp_title_info"/>
+        </key>
+	</admin-texts>
+    <shortcodes>
+        <shortcode>
+            <tag>kleo_grid</tag>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_feature_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>content</attribute>
+                <attribute>href</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_list</tag>
+            <attributes>
+                <attribute>align</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_list_item</tag>
+            <attributes>
+                <attribute>icon</attribute>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tab</tag>
+            <attributes>
+                <attribute>icon</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_accordion_tab</tag>
+            <attributes>
+                <attribute>icon</attribute>
+                <attribute>tooltip_title</attribute>
+                <attribute>tooltip_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_pin</tag>
+            <attributes>
+                <attribute>icon</attribute>
+                <attribute>tooltip_title</attribute>
+                <attribute>tooltip_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_button</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>tooltip_title</attribute>
+                <attribute>tooltip_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_animate_numbers</tag>
+            <attributes>
+                <attribute>content</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_divider</tag>
+            <attributes>
+                <attribute>icon</attribute>
+                <attribute>text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_search_form</tag>
+            <attributes>
+                <attribute>placeholder</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_bbp_header_search</tag>
+            <attributes>
+                <attribute>forum_id</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_post_count</tag>
+            <attributes>
+                <attribute>type</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_pricing_table_item</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>price</attribute>
+                <attribute>popular</attribute>
+                <attribute>content</attribute>
+                <attribute>features</attribute>
+                <attribute>link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_login</tag>
+            <attributes>
+                <attribute>login_title</attribute>
+                <attribute>lostpass_title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_register</tag>
+            <attributes>
+                <attribute>register_title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_news_focus</tag>
+            <attributes>
+                <attribute>name</attribute>
+                <attribute>posts_query</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_news_highlight</tag>
+            <attributes>
+                <attribute>posts_query</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_news_ticker</tag>
+            <attributes>
+                <attribute>posts_query</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>kleo_bp_member_stats</tag>
+            <attributes>
+                <attribute>field</attribute>
+                <attribute>value</attribute>
+            </attributes>
+        </shortcode>
+
+
+        <shortcode>
+            <tag>vc_column_text</tag>
+        </shortcode>
+
+
+        <shortcode>
+            <tag>vc_column_text</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_text_separator</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_message</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_toggle</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>tooltip_title</attribute>
+                <attribute>tooltip_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tta_accordion</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tta_tour</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tta_tabs</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tta_pageable</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_tta_section</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_custom_heading</tag>
+            <attributes>
+                <attribute>text</attribute>
+                <attribute>link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag encoding="base64">vc_raw_html</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_progress_bar</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_pie</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>label_value</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_round_chart</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_btn</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_cta</tag>
+            <attributes>
+                <attribute>h2</attribute>
+                <attribute>h4</attribute>
+                <attribute>btn_title</attribute>
+                <attribute>btn_link</attribute>
+                <attribute>i_link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_line_chart</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_single_image</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_gallery</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_images_carousel</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_widget_sidebar</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_posts_slider</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_video</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_gmaps</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_flickr</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_search</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_meta</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_recentcomments</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_calendar</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_pages</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_tagcloud</tag>
+            <attributes>
+                <attribute>taxonomy</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_custommenu</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_text</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_posts</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_categories</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_archives</tag>
+        </shortcode>
+        <shortcode>
+            <tag>vc_wp_rss</tag>
+            <attributes>
+                <attribute>items</attribute>
+                <attribute>title</attribute>
+                <attribute>url</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>
